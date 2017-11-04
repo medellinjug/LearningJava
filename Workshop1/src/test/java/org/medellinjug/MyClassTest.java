@@ -1,7 +1,6 @@
-package org.workshop1;
+package org.medellinjug;
 
 import org.junit.Test;
-import org.medellinjug.MyClass;
 
 public class MyClassTest {
 
