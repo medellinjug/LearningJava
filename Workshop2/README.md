@@ -81,7 +81,7 @@ en formato JSON  las propiedades y el campo que desea modificar, al terminar dar
 - En la lista de **method** seleccionar DELETE, en el campo **Request URL**: http://localhost:8080/developers/1 
   y dar clic en **SEND** (Se elimina el registro que tenia el id=1)
   
-**6** En la clase DeveloperController.java en la linea 54 crear el método que filtre por lastName y comprobar su funcionamiento.
+**6.** En la clase DeveloperController.java en la linea 54 crear el método que filtre por lastName y comprobar su funcionamiento.
 ___  
 
 
