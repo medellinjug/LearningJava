@@ -1,6 +1,6 @@
 # workshop1
 
-##November 1st 2017
+## November 1st 2017
 
 Ejemplo de como trabajar con  proyectos estructurados con  tecnología **maven** en repositorios git.
 ___
@@ -52,9 +52,9 @@ ___
     ```
 
 
-##Clonar el proyecto
+## Clonar el proyecto
 
-####Para ejecutar los comandos:
+#### Para ejecutar los comandos:
 
 + **Windows:** Terminal cmd o terminal de Git Bash
 + **Mac OS:** Terminal
@@ -66,7 +66,7 @@ ___
         git clone https://github.com/medellinjug/LearningJava.git
     ```
 
-##Comandos Maven
+## Comandos Maven
 
 + Para compilar el archivo **pom.xml** del proyecto ejecutamos el siguiente comando
 
@@ -96,7 +96,7 @@ ___
 
 ######  Cuando no se han generado cambios en el proyecto nos mostrara lo siguiente: nothing to commit, working tree clean
 
-######  De lo contrario si se generaron cambios el mostrara la lista de archivos que se han modificado  y se han agregado al commit (Color rojo) y tambi�n nos muestra la lista de archivos que se han modificado y que se hayan agregado al commit (Color verde).
+######  De lo contrario si se generaron cambios el mostrara la lista de archivos que se han modificado  y se han agregado al commit (Color rojo) y también nos muestra la lista de archivos que se han modificado y que se hayan agregado al commit (Color verde).
 
 ___
 
@@ -129,15 +129,15 @@ ___
     ```
 
 
-##Recursos
+## Recursos
 
-###Lecturas recomendadas
+### Lecturas recomendadas
 
 - [Maven in 5 Minutes](https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html "Maven in 5 Minutes")
 - [Documentation git](https://git-scm.com/book/en/v2 "Documentation git")
 
 
-###Otros recursos
+### Otros recursos
 
 - [JDK 9 / Jigsaw Resources](./Java-9-Resources.md "JDK 9")
 - [Git](https://git-scm.com/downloads "Git")
