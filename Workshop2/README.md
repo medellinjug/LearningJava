@@ -20,7 +20,7 @@ ___
 - [Advanced REST client](https://chrome.google.com/webstore/detail/advanced-rest-client/hgmloofddffdnphfgcellkdfbfbjeloo)
 
 
-##Archivos
+#Archivos
 
 En esta sesion trabajaremos con tres archivos:
 
@@ -30,11 +30,11 @@ En esta sesion trabajaremos con tres archivos:
 - DeveloperReader.java = contiene los registros del objeto Developer en formato JSON
 
 
-##¿Qué es RESTFUL?
+#¿Qué es RESTFUL?
 
 es un estilo de Arquitectura a la hora de realizar una comunicación que se ejecuta sobre HTTP entre cliente y servidor.
 
-##Métodos de RESTFUL
+#Métodos de RESTFUL
 
 - **POST** para crear un registro
 - **GET** para obtener un registro
@@ -42,12 +42,12 @@ es un estilo de Arquitectura a la hora de realizar una comunicación que se ejec
 - **DELETE** para eliminar un registro
 ___
 
-##¿Que es SpringBoot?
+#¿Que es SpringBoot?
 
 
 [Spring Boot](https://projects.spring.io/spring-boot/) nace con la intención de simplificar los pasos de configurar jar en el proyecto y desplegar en servidor y que solo nos podamos centrar en el desarrollo de nuestra aplicación. 
 
-## Procedimiento
+# Procedimiento
 
 **1.** Clonar el proyecto desde github
 
