@@ -8,13 +8,13 @@ ___
 **Nivel:** Básico
 ___
 **Conocimientos previos:**
-__
+
 - Maven
 - Git
 - JSON
 
 **Herramientas a utilizar:**
-__
+
 - cmd o terminal
 - IDE para trabajar con SpringBoot
 - [Advanced REST client](https://chrome.google.com/webstore/detail/advanced-rest-client/hgmloofddffdnphfgcellkdfbfbjeloo)
