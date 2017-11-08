@@ -68,6 +68,18 @@ ___
 
 ## Comandos Maven
 
+
+**Nota:** Si por alguna razón tiene el jdk8, abrir el archivo **pom.xml** del proyecto y modificar en propierties  la versión de java de la siguiente manera:  
+
+    
+        <properties>
+             <java.version>1.8</java.version>
+             <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+         </properties>
+     
+
+
+
 + Para compilar el archivo **pom.xml** del proyecto ejecutamos el siguiente comando
 
     ```
