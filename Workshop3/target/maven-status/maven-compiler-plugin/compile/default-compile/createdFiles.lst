@@ -1,0 +1,5 @@
+org\medellinjug\semillero\WorkshopApplication.class
+org\medellinjug\semillero\view\DeveloperReader.class
+org\medellinjug\semillero\view\DeveloperServiceBean.class
+org\medellinjug\semillero\model\Developer.class
+org\medellinjug\semillero\model\DeveloperController.class

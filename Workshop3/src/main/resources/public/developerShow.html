@@ -1,0 +1,113 @@
+<!doctype html>
+<html ng-app="Developer">
+<head>
+    <title>All developers</title>
+    <link rel="icon" type="image/icon" href="/images/favicon.ico" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+          crossorigin="anonymous">
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <script src="DeveloperController.js"></script>
+
+    <style>
+        html body {
+            font-family: Arial, Helvetica, sans-serif
+        }
+
+        fieldset {
+            padding: 0;
+            border: 0;
+            margin-top: 25px;
+            font-size: 75%;
+        }
+
+        .container {
+            width: 90%;
+            margin: auto;
+        }
+
+    </style>
+
+</head>
+<body>
+
+<div class="container">
+    <div class="page-header">
+        <h2>All developers</h2>
+    </div>
+</div>
+<div class="container">
+    <form>
+        <div ng-controller="Developer" class="col-xs-4 ">
+            <button class="btn btn-danger" id="homeButton" type="button" ng-click="goHome()">
+                <span class="glyphicon glyphicon-home"></span>
+                <p><b>Regresar</b></p>
+            </button>
+        </div>
+    </form>
+</div>
+<br/><br/>
+<div class="container">
+    <div ng-controller="Developer" ng-init="searchAllDeveloper()">
+        <div class="click-element animate-show">
+
+            <form>
+                <div class="panel panel-info" class="click-element animate-show">
+                    <table class="table-bordered table table-hover table-condensed">
+                        <thead>
+                        <tr class="info">
+                            <th>ID</th>
+                            <th>First Name</th>
+                            <th>Last Name</th>
+
+
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr ng-repeat="developer in developerList">
+                            <td>
+                                <div>{{developer.id}}</div>
+
+                            </td>
+                            <td>
+                                <div>{{developer.firstName}}</div>
+
+                            </td>
+                            <td>
+                                <div>{{developer.lastName}}</div>
+
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+</div>
+
+
+<div class="container">
+    <div class="footer">
+        <h5>Powered by <a href="http://www.medellinjug.org" target="_blank">MedellinJUG.org</a></h5>
+        <h6>2017</h6>
+    </div>
+</div>
+
+
+</body>
+
+
+</html>

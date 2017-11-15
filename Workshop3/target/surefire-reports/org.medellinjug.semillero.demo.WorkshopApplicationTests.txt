@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.medellinjug.semillero.demo.WorkshopApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.922 sec - in org.medellinjug.semillero.demo.WorkshopApplicationTests
