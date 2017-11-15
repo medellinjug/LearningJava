@@ -39,9 +39,54 @@ git clone https://github.com/medellinjug/LearningJava.git
 ```
 java -jar (archivo ejecutable).jar
 ```
+**5.** Al abrir el archivo DeveloperController.js podemos observar las funciones para buscar todos los developers y agregar un developer.
 
 
+*Show all developers*
+
+```
+$scope.searchAllDeveloper = function () {
+
+            $scope.developerList = null;
+
+            $http.get($scope.urlDeveloper).then(function (response) {
+                $scope.developerList = response.data;
+            });
 
 
+        }
+```
+
+*Add developer*
+
+```
+        $scope.addDeveloper = function () {
+
+            var developer = {
+                firstName: $scope.firstName,
+                lastName: $scope.lastName
+            };
+
+            var res = $http.post($scope.urlDeveloper, JSON.stringify(developer), {
+                headers: {'Content-Type': 'application/json'}
+            });
+
+
+            res.success(function (data, status, headers, config) {
+                $scope.message = data;
+                alert("Developer has successfully registered");
+                $scope.goHome();
+            });
+            res.error(function (data, status, headers, config) {
+                alert("failure message: " + +JSON.stringify({data: data}));
+            });
+
+        }
+```
+
+
+**6.** En el archivo DeveloperController.js crear las funciones para buscar por *firstName* , modificar y eliminar un developer.
+
+**7.** Crear las páginas para buscar por *firstName*, modificar y eliminar un developer.
 
 
